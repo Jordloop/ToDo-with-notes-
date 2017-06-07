@@ -44,7 +44,8 @@ namespace ToDoList
     //  The three parts of this connection string are:
     //  1. DATA SOURCE: Identified the server.
     //  2. INITAL CATALOG: The database name
-    //  3. INTEGRATED SECURITY: Sets the security of the database access to the Windows user that is currently logged in.
+    //  3. INTEGRATED SECURITY: Sets the security of the database access to the
+    //  Windows user that is currently logged in.
       public static string ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=todo;Integrated Security=SSPI;";
   }
 }
